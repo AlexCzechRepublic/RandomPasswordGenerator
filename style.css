@@ -1,0 +1,70 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    color: #00ffff; /* Azurová jako u kalkulačky */
+    margin-top: 0;
+}
+
+.result-container {
+    margin-bottom: 20px;
+}
+
+#passwordResult {
+    width: 100%;
+    padding: 12px;
+    background-color: #2d2d2d;
+    border: 2px solid #00ff00; /* Zelená pro úspěšné bezpečné heslo */
+    border-radius: 5px;
+    color: #00ff00;
+    font-size: 1.1rem;
+    font-family: monospace;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.setting-item {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e0e0e0;
+}
+
+input[type="range"] {
+    width: 60%;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00ffff;
+    border: none;
+    border-radius: 5px;
+    color: #121212;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #00b3b3;
+}

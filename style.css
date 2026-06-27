@@ -19,26 +19,28 @@ body {
 
 h2 {
     text-align: center;
-    color: #00ffff; /* Azurová jako u kalkulačky */
+    color: #00ffff; 
     margin-top: 0;
 }
 
 .result-container {
     margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
 }
 
 #passwordResult {
-    width: 100%;
+    flex-grow: 1; 
     padding: 12px;
     background-color: #2d2d2d;
-    border: 2px solid #00ff00; /* Zelená pro úspěšné bezpečné heslo */
+    border: 2px solid #00ff00;
     border-radius: 5px;
     color: #00ff00;
     font-size: 1.1rem;
     font-family: monospace;
     text-align: center;
     box-sizing: border-box;
-}
+}}
 
 .setting-item {
     margin-bottom: 15px;
@@ -68,3 +70,20 @@ button {
 button:hover {
     background-color: #00b3b3;
 }
+
+#copyBtn {
+    width: auto; 
+    padding: 0 20px;
+    background-color: #2d2d2d;
+    border: 2px solid #00ffff;
+    color: #00ffff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+#copyBtn:hover {
+        background-color: #00ffff;
+        color: #121212;
+    }
